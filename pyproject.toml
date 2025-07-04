@@ -1,0 +1,20 @@
+[project]
+name = "lcs-app"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Takimoto0924",email = "kout3192@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit (>=1.46.1,<2.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "lcs_app", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
